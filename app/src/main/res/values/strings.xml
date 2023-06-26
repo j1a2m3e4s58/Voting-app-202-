@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VotingApp</string>
+    <string name="newText">Welcome to Ghana Presidential Voting app</string>
+    <string name="option">Want to start?</string>
+    <string name="AddNewID">Add a new voter id</string>
+    <string name="StartVoting">Start voting</string>
+    <string name="welcomeVoter">Voting Page</string>
+</resources>
