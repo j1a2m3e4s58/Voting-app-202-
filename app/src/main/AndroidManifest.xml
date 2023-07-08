@@ -13,6 +13,15 @@
         android:theme="@style/Theme.VotingApp"
         tools:targetApi="31">
         <activity
+            android:name=".Results"
+            android:exported="false" />
+        <activity
+            android:name=".ValidationInstructions"
+            android:exported="false" />
+        <activity
+            android:name=".ValidateUser"
+            android:exported="false" />
+        <activity
             android:name=".VotingActivity"
             android:exported="false" />
         <activity

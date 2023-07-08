@@ -7,25 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class ValidationInstructions extends AppCompatActivity {
 
-    private Button btn1;
+    private Button next_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_validation_instructions);
 
-        btn1 = (Button) findViewById(R.id.btn1);
-
-        btn1.setOnClickListener(new View.OnClickListener() {
+        next_btn = (Button) findViewById(R.id.next_btn);
+        next_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ValidationInstructions.class);
+                Intent intent = new Intent(ValidationInstructions.this,ValidateUser.class);
                 startActivity(intent);
             }
         });
-
-
     }
 }

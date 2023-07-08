@@ -13,8 +13,18 @@
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:text="@string/newText"
-        android:textSize="30dp"
+        android:textSize="50dp"
+        android:textColor="@color/vibrant_blue"
         android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/intro"
+        android:text="@string/introduction"
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        />
 
     <TextView
         android:layout_width="match_parent"
@@ -26,19 +36,13 @@
         />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btn1"
         android:layout_margin="15dp"
         android:text="@string/AddNewID"
-        android:layout_gravity="center"/>
+        android:layout_marginTop="100dp"
+        android:layout_gravity="bottom"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn2"
-        android:layout_margin="15dp"
-        android:text="@string/StartVoting"
-        android:layout_gravity="center"/>
 
 </LinearLayout>

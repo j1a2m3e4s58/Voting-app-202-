@@ -1,8 +1,17 @@
 <resources>
     <string name="app_name">VotingApp</string>
-    <string name="newText">Welcome to Ghana Presidential Voting app</string>
+    <string name="newText">Electify</string>
     <string name="option">Want to start?</string>
-    <string name="AddNewID">Add a new voter id</string>
+    <string name="AddNewID">Start Voting</string>
     <string name="StartVoting">Start voting</string>
     <string name="welcomeVoter">Voting Page</string>
+    <string name="UserValidation">Validation Page</string>
+    <string name="validate_btn">Validate</string>
+    <string name="next_btn">Next</string>
+    <string name="topic">Instructions For Voting</string>
+    <string name="instructions">To vote, it is necessary to possess an ID. \nInput your ID in the designated field and proceed by selecting the verify button beneath it. \nFollowing successful verification, you will be directed to the voting page where you can cast your vote for your preferred candidate.</string>
+    <string name="validation_message">In this page, you will have to validate your id to be able to move on to the next page. If you have not registered visit the nearest polling station to register</string>
+    <string name="introduction">Welcome. \nElectify is an app that enable you to choose your leader from the comfort of your home. \nNo need for long queues or boring meeting</string>
+    <string name="Finished">Ballot Submitted</string>
+    <string name="Appreciation">Thanks for voting...</string>
 </resources>
